@@ -92,7 +92,8 @@ class MyFirstPrjView extends Ui.DataField {
 			timerLabel_y = 170;
 		} else {
 			timer_x = 107.5;
-			timer_y = 159;
+//			timer_y = 159;
+			timer_y = 10;
 			timerLabel_y = 133;
 		}
 
@@ -127,33 +128,34 @@ class MyFirstPrjView extends Ui.DataField {
 	function onUpdate(dc) {
 
         /*
-                ---------------------------   0
-               |                           |
-                A --------- VA ------------
-               |             |             |
-               |             |             |
-               |             |             |
-                B -------------------------
-               |                           |
-               |                           |
-               |                           |
-                C --------- VC ------------
-               |             |             |
-               |             |             |
-               |             |             |
-                D -------------------------
-               |                           |
-                ---------------------------  264
+                -------------------------------     0
+           A   | Aleft                  Aright |
+               |           Amiddle             |
+               A ------------- VA -------------
+               | Btl       Btr |           Ctr |
+               |     Bmid      |      Cmid     |
+               | Bbl           |           Cbr |
+               B ------------------------------
+               |                               |
+               |             Dmiddle           |
+               |                               |
+               C ------------- VC -------------
+               |               |               |
+               |      E        |      F        |
+               |               |               |
+               D ------------------------------
+               |              G                |
+                -------------------------------  264
 
             215x263
          */
 
 
-
+        var HEIGHT =  70;
         var pHA = 20;    // horizontal point  A
-        var pHB = 80;    // horizontal point  B
-        var pHC = 180;    // horizontal point  C
-        var pHD = 240;    // horizontal point  C
+        var pHB = pHA+HEIGHT;    // horizontal point  B
+        var pHC = pHB+80;    // horizontal point  C
+        var pHD = pHC+HEIGHT;    // horizontal point  C
 
         var CNT = 107;    // vertical point  A  (center of the screen)
         var Tkn = 1;    // thikness
@@ -166,8 +168,8 @@ class MyFirstPrjView extends Ui.DataField {
 
 		// UPDATE FIELDS
 
-		textC(dc, timer_x, timer_y, Gfx.FONT_NUMBER_MEDIUM, timer);
-		textC(dc, timer_x, timerLabel_y, Gfx.FONT_XTINY,  "Timer");
+		textC(dc, timer_x, timer_y, Gfx.FONT_TINY, timer);
+//		textC(dc, timer_x, timerLabel_y, Gfx.FONT_XTINY,  "Timer");
 
 		if (timerFieldMode == true) {
 			textL(dc, 140 - timeFieldOffset, 138, Gfx.FONT_LARGE, timeField);
@@ -218,9 +220,12 @@ class MyFirstPrjView extends Ui.DataField {
         dc.drawLine(0, pHD+Tkn, 215, pHD+Tkn);
 
         // top vertical lines
-		dc.drawLine(CNT, pHA+SPC, CNT, pHB-SPC);
-		dc.drawLine(CNT+Tkn, pHA+SPC, CNT+Tkn, pHB-SPC);
+		dc.drawLine(CNT, pHA+SPC+SPC, CNT, pHB-SPC);
+		dc.drawLine(CNT+Tkn, pHA+SPC+SPC, CNT+Tkn, pHB-SPC);
 
+        // top vertical lines
+		dc.drawLine(CNT, pHC+SPC+SPC, CNT, pHD-SPC);
+		dc.drawLine(CNT+Tkn, pHC+SPC+SPC, CNT+Tkn, pHD-SPC);
 
 		// bottom vertical lines
 		if (timerFieldMode == true) {
