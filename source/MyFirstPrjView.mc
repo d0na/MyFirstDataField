@@ -4,21 +4,46 @@ using Toybox.System as Sys;
 
 class MyFirstPrjView extends Ui.DataField {
 
-	var firstFieldMode;
-	var firstField;
-	var firstFieldLabel;
 
-	var secondFieldMode;
-	var secondField;
-	var secondFieldLabel;
+    var arrayDistance = new [5];
+    var arrayAltitude = new [5];
+    var arrayIndex = 0;
 
-	var thirdFieldMode;
-	var thirdField;
-	var thirdFieldLabel;
+    var currDistance = 0;
+    var currAltitude = 0;
 
-	var forthFieldMode;
-	var forthField;
-	var forthFieldLabel;
+
+	var boxBmiddleFieldMode;
+	var boxBmiddleField;
+	var boxBmiddleFieldLabel;
+
+	var boxCmiddleFieldMode;
+	var boxCmiddleField;
+	var boxCmiddleFieldLabel;
+
+    var boxCtopLeftFieldMode;
+	var boxCtopLeftField;
+	var boxCtopLeftFieldLabel;
+
+	var boxDtopRightFieldMode;
+	var boxDtopRightField;
+	var boxDtopRightFieldLabel;
+
+	var boxDmiddleFieldMode;
+    var boxDmiddleField;
+    var boxDmiddleFieldLabel;
+
+    var boxDtopLeftFieldMode;
+    var boxDtopLeftField;
+    var boxDtopLeftFieldLabel;
+
+	var boxEmiddleFieldMode;
+	var boxEmiddleField;
+	var boxEmiddleFieldLabel;
+
+	var boxFmiddleFieldMode;
+	var boxFmiddleField;
+	var boxFmiddleFieldLabel;
 
 	var timerFieldMode;
 	var batteryField;
@@ -49,27 +74,34 @@ class MyFirstPrjView extends Ui.DataField {
 
 		DataField.initialize();
 
-		var usePreferences = 1;
+		var usePreferences = 0;
 		
-		var background = 1;  // 0=white; 1=black
-		invertMiddleBackground = true;  // ... of the middle two fields only
+		var background = 0;  // 0=white; 1=black
+		invertMiddleBackground = false;  // ... of the middle two fields only
 		timerType = 0; // 0=timer, 1=total elapsed time
 		lapSplit = 1.0; // lap split in km or miles
 
-		// 0=dist, 1=curPace, 2=lapPace, 3=avePace, 4=HR, 5=aveHR, 6=Cadence, 7=aveCadence
-		firstFieldMode = 4;
-		secondFieldMode = 6;
-		thirdFieldMode = 2;
-		forthFieldMode = 0;		
+        /*
+		        0=dist, 1=curPace, 2=lapPace, 3=avePace, 4=HR, 5=aveHR, 6=Cadence, 7=aveCadence
+        	    8=grade, 9=totAscent, 10=lap distance, 11=maxHR , 12 = HR zone, 13 = Altitdue
+        */
+
+		boxBmiddleFieldMode = 13;
+		boxCmiddleFieldMode = 8;
+		boxDmiddleFieldMode = 1;
+		boxDtopLeftFieldMode = 1;
+		boxDtopRightFieldMode = 1;
+		boxEmiddleFieldMode = 0;
+		boxFmiddleFieldMode = 3;
 		timerFieldMode = true;  // true=timer AND time+battery
 
 		if (usePreferences == 1) {
 			background = Application.getApp().getProperty("blackBackground");
 			invertMiddleBackground = Application.getApp().getProperty("invertMiddleBackground");
-			firstFieldMode = Application.getApp().getProperty("firstFieldMode");
-			secondFieldMode = Application.getApp().getProperty("secondFieldMode");
-			thirdFieldMode = Application.getApp().getProperty("thirdFieldMode");
-			forthFieldMode = Application.getApp().getProperty("forthFieldMode");
+			boxBmiddleFieldMode = Application.getApp().getProperty("boxBmiddleFieldMode");
+			boxCmiddleFieldMode = Application.getApp().getProperty("boxCmiddleFieldMode");
+			boxDmiddleFieldMode = Application.getApp().getProperty("boxDmiddleFieldMode");
+			boxEmiddleFieldMode = Application.getApp().getProperty("boxEmiddleFieldMode");
 			lapSplit = Application.getApp().getProperty("lapSplit");
 			timerType = Application.getApp().getProperty("timerType");
 			timerFieldMode = Application.getApp().getProperty("timerFieldMode");
@@ -171,18 +203,21 @@ class MyFirstPrjView extends Ui.DataField {
 		textC(dc, timer_x, timer_y, Gfx.FONT_TINY, timer);
 //		textC(dc, timer_x, timerLabel_y, Gfx.FONT_XTINY,  "Timer");
 
-		if (timerFieldMode == true) {
+		/*if (timerFieldMode == true) {
 			textL(dc, 140 - timeFieldOffset, 138, Gfx.FONT_LARGE, timeField);
 			textL(dc, 140 + batteryFieldOffset, 164, Gfx.FONT_LARGE, batteryField);
 			var length = dc.getTextWidthInPixels(batteryField, Gfx.FONT_LARGE);
 			textL(dc, 140 + length + batteryFieldOffset, 162, Gfx.FONT_MEDIUM, "%");
-		}
+		}*/
 
-		textC(dc, 65, 33, Gfx.FONT_NUMBER_MEDIUM, firstField);
-		textC(dc, 65, 7, Gfx.FONT_XTINY, firstFieldLabel);
+        var hLineCB = 55;
+        //box B
+		textC(dc, 70, hLineCB, Gfx.FONT_NUMBER_MEDIUM, boxBmiddleField);
+		textC(dc, 80, hLineCB-25, Gfx.FONT_XTINY, boxBmiddleFieldLabel);
 
-		textC(dc, 147, 33, Gfx.FONT_NUMBER_MEDIUM, secondField);
-		textC(dc, 147, 7, Gfx.FONT_XTINY, secondFieldLabel);
+        //box C
+		textC(dc, 160, hLineCB, Gfx.FONT_NUMBER_MEDIUM, boxCmiddleField);
+		textC(dc, 170, hLineCB-25, Gfx.FONT_XTINY, boxCmiddleFieldLabel);
 
 		if (invertMiddleBackground == true) {
 			// invert the colours of the middle two fields
@@ -191,11 +226,35 @@ class MyFirstPrjView extends Ui.DataField {
 			dc.setColor(backgroundColour, Gfx.COLOR_TRANSPARENT);	
 		}
 
-		textC(dc, 54, 94, Gfx.FONT_NUMBER_HOT, thirdField);
-		textC(dc, 54, 66, Gfx.FONT_XTINY,  thirdFieldLabel);
+        //box D middle
+        var hLineD = 145;
+        var endField = 165;
+		textC(dc, 107, hLineD, Gfx.FONT_NUMBER_THAI_HOT, boxDmiddleField);
+//		textC(dc, 137, hLineD-32, Gfx.FONT_XTINY,  boxDmiddleFieldLabel);
+		        textC(dc, endField, 125, Gfx.FONT_SMALL,  'K');
+            	textC(dc, endField+1, 135, Gfx.FONT_SMALL,  'm');
+            	textC(dc, endField, 150, Gfx.FONT_SMALL,  'h');
+        //box D top left
+        var hTopLineEF = 100;
+        textC(dc, 25, hTopLineEF, Gfx.FONT_SMALL, boxDtopLeftField);
+        textC(dc, 6, 97, Gfx.FONT_XTINY,  '^');
+        textC(dc, 6, 99, Gfx.FONT_XTINY,  '|');
+        //box D top right
+        textC(dc, 175, hTopLineEF, Gfx.FONT_MEDIUM, boxDtopRightField);
+        textC(dc, 196, hTopLineEF-6, Gfx.FONT_XTINY,  "A");
+        textC(dc, 196, hTopLineEF, Gfx.FONT_XTINY,  "V");
+        textC(dc, 196, hTopLineEF+6, Gfx.FONT_XTINY,  "G");
+//        textC(dc, 6, 97, Gfx.FONT_XTINY,  '^');
 
-		textC(dc, 161, 94, Gfx.FONT_NUMBER_HOT, forthField);
-		textC(dc, 161, 66, Gfx.FONT_XTINY,  forthFieldLabel);
+
+        //Box E
+        var hLineEF = 210;
+		textC(dc, 60, hLineEF, Gfx.FONT_NUMBER_HOT, boxEmiddleField);
+		textC(dc, 70, hLineEF-25, Gfx.FONT_XTINY,  boxEmiddleFieldLabel);
+
+		//Box F
+        textC(dc, 160, hLineEF, Gfx.FONT_NUMBER_HOT, boxFmiddleField);
+        textC(dc, 170, hLineEF-25, Gfx.FONT_XTINY,  boxFmiddleFieldLabel);
 
 		// DRAW LINES
 
@@ -227,11 +286,11 @@ class MyFirstPrjView extends Ui.DataField {
 		dc.drawLine(CNT, pHC+SPC+SPC, CNT, pHD-SPC);
 		dc.drawLine(CNT+Tkn, pHC+SPC+SPC, CNT+Tkn, pHD-SPC);
 
-		// bottom vertical lines
-		if (timerFieldMode == true) {
-			dc.drawLine(134, 124, 134, 180);
-			dc.drawLine(135, 124, 135, 180);
-		}
+//		// bottom vertical lines
+//		if (timerFieldMode == true) {
+//			dc.drawLine(134, 124, 134, 180);
+//			dc.drawLine(135, 124, 135, 180);
+//		}
 
 		return true;
 	}
@@ -239,141 +298,22 @@ class MyFirstPrjView extends Ui.DataField {
 
 	function compute(info) {
 
-		if (firstFieldMode == 0) {
-			firstFieldLabel = "Distance";
-			firstField = toDist(info.elapsedDistance);
-		} else if (firstFieldMode == 1) {
-			firstFieldLabel = "Cur Pace";
-			firstField = fmtSecs(toPace(info.currentSpeed));
-		} else if (firstFieldMode == 2) {
-			firstFieldLabel = "Lap Pace";
-			firstField = fmtSecs(calculateLapPace(info.elapsedDistance, info.timerTime));
-		} else if (firstFieldMode == 3) {
-			firstFieldLabel = "Ave Pace";
-			firstField = fmtSecs(toPace(info.averageSpeed));
-		} else if (firstFieldMode == 4) {
-			firstFieldLabel = "Heart";
-			firstField = toStr(info.currentHeartRate);
-		} else if (firstFieldMode == 5) {
-			firstFieldLabel = "Ave HR";
-			firstField = toStr(info.averageHeartRate);
-		} else if (firstFieldMode == 6) {
-			firstFieldLabel = "Cadence";
-			firstField = toStr(info.currentCadence);
-		} else if (firstFieldMode == 7) {
-			firstFieldLabel = "Ave Cad";
-			firstField = info.averageCadence;
-			if (firstField != null) {
-				firstField = firstField * 2;
-			}
-			firstField = toStr(firstField);
-		} else {
-			firstFieldLabel = "Heart";
-			firstField = toStr(info.currentHeartRate);
-		}
 
-
-		if (secondFieldMode == 0) {
-			secondFieldLabel = "Distance";
-			secondField = toDist(info.elapsedDistance);
-		} else if (secondFieldMode == 1) {
-			secondFieldLabel = "Cur Pace";
-			secondField = fmtSecs(toPace(info.currentSpeed));
-		} else if (secondFieldMode == 2) {
-			secondFieldLabel = "Lap Pace";
-			secondField = fmtSecs(calculateLapPace(info.elapsedDistance, info.timerTime));
-		} else if (secondFieldMode == 3) {
-			secondFieldLabel = "Ave Pace";
-			secondField = fmtSecs(toPace(info.averageSpeed));
-		} else if (secondFieldMode == 4) {
-			secondFieldLabel = "Heart";
-			secondField = toStr(info.currentHeartRate);
-		} else if (secondFieldMode == 5) {
-			secondFieldLabel = "Ave HR";
-			secondField = toStr(info.averageHeartRate);
-		} else if (secondFieldMode == 6) {
-			secondFieldLabel = "Cadence";
-			secondField = toStr(info.currentCadence);
-		} else if (secondFieldMode == 7) {
-			secondFieldLabel = "Ave Cad";
-			secondField = info.averageCadence;
-			if (secondField != null) {
-				secondField = secondField * 2;
-			}
-			secondField = toStr(secondField);
-		} else {
-			secondFieldLabel = "Cadence";
-			secondField = toStr(info.currentCadence);
-		}
-
-
-		if (thirdFieldMode == 0) {
-			thirdFieldLabel = "Distance";
-			thirdField = toDist(info.elapsedDistance);
-		} else if (thirdFieldMode == 1) {
-			thirdFieldLabel = "Current Pace";
-			thirdField = fmtSecs(toPace(info.currentSpeed));
-		} else if (thirdFieldMode == 2) {
-			thirdFieldLabel = "Lap Pace";
-			thirdField = fmtSecs(calculateLapPace(info.elapsedDistance, info.timerTime));
-		} else if (thirdFieldMode == 3) {
-			thirdFieldLabel = "Ave Pace";
-			thirdField = fmtSecs(toPace(info.averageSpeed));
-		} else if (thirdFieldMode == 4) {
-			thirdFieldLabel = "Heart Rate";
-			thirdField = toStr(info.currentHeartRate);
-		} else if (thirdFieldMode == 5) {
-			thirdFieldLabel = "Ave Heart Rate";
-			thirdField = toStr(info.averageHeartRate);
-		} else if (thirdFieldMode == 6) {
-			thirdFieldLabel = "Cadence";
-			thirdField = toStr(info.currentCadence);
-		} else if (thirdFieldMode == 7) {
-			thirdFieldLabel = "Ave Cadence";
-			thirdField = info.averageCadence;
-			if (thirdField != null) {
-				thirdField = thirdField * 2;
-			}
-			thirdField = toStr(thirdField);
-		} else {
-			thirdFieldLabel = "Lap Pace";
-			thirdField = fmtSecs(calculateLapPace(info.elapsedDistance, info.timerTime));
-		}
-
-
-		if (forthFieldMode == 0) {
-			forthFieldLabel = "Distance";
-			forthField = toDist(info.elapsedDistance);
-		} else if (forthFieldMode == 1) {
-			forthFieldLabel = "Current Pace";
-			forthField = fmtSecs(toPace(info.currentSpeed));
-		} else if (forthFieldMode == 2) {
-			forthFieldLabel = "Lap Pace";
-			forthField = fmtSecs(calculateLapPace(info.elapsedDistance, info.timerTime));
-		} else if (forthFieldMode == 3) {
-			forthFieldLabel = "Ave Pace";
-			forthField = fmtSecs(toPace(info.averageSpeed));
-		} else if (forthFieldMode == 4) {
-			forthFieldLabel = "Heart Rate";
-			forthField = toStr(info.currentHeartRate);
-		} else if (forthFieldMode == 5) {
-			forthFieldLabel = "Ave Heart Rate";
-			forthField = toStr(info.averageHeartRate);
-		} else if (forthFieldMode == 6) {
-			forthFieldLabel = "Cadence";
-			forthField = toStr(info.currentCadence);
-		} else if (forthFieldMode == 7) {
-			forthFieldLabel = "Ave Cadence";
-			forthField = info.averageCadence;
-			if (forthField != null) {
-				forthField = forthField * 2;
-			}
-			forthField = toStr(forthField);
-		} else {
-			forthFieldLabel = "Distance";
-			forthField = toDist(info.elapsedDistance);
-		}
-
+		boxBmiddleFieldLabel = getFieldLabel(boxBmiddleFieldMode);
+		boxCmiddleFieldLabel = getFieldLabel(boxCmiddleFieldMode);
+		boxDmiddleFieldLabel = getFieldLabel(boxDmiddleFieldMode);
+		boxDtopLeftField = getFieldLabel(boxDtopLeftFieldMode);
+		boxDtopRightField = getFieldLabel(boxDtopRightFieldMode);
+		boxEmiddleFieldLabel = getFieldLabel(boxEmiddleFieldMode);
+		boxFmiddleFieldLabel = getFieldLabel(boxFmiddleFieldMode);
+		
+		boxBmiddleField = getFieldValue(info,boxBmiddleFieldMode);
+		boxCmiddleField = getFieldValue(info,boxCmiddleFieldMode);
+		boxDmiddleField = getFieldValue(info,boxDmiddleFieldMode);
+		boxDtopLeftField = getFieldValue(info,boxDtopLeftFieldMode);
+		boxDtopRightField = getFieldValue(info,boxDtopRightFieldMode);
+		boxEmiddleField = getFieldValue(info,boxEmiddleFieldMode);
+		boxFmiddleField = getFieldValue(info,boxFmiddleFieldMode);
 
 		var time;
 		if (timerType == 1) {
@@ -391,22 +331,22 @@ class MyFirstPrjView extends Ui.DataField {
 		timer = fmtSecs(time);
 
 
-		if (timerFieldMode == true) {
-		
-			timeField = fmtTime(Sys.getClockTime());
-			batteryField = Sys.getSystemStats().battery;
-			batteryFieldOffset = 0;
-
-			if (batteryField > 99) {
-				batteryField = 99;
-			} else {
-				if (batteryField < 10) {
-					batteryFieldOffset = 5;
-				}
-			}
-
-			batteryField = toStr(batteryField.toNumber());
-		}
+//		if (timerFieldMode == true) {
+//
+//			timeField = fmtTime(Sys.getClockTime());
+//			batteryField = Sys.getSystemStats().battery;
+//			batteryFieldOffset = 0;
+//
+//			if (batteryField > 99) {
+//				batteryField = 99;
+//			} else {
+//				if (batteryField < 10) {
+//					batteryFieldOffset = 5;
+//				}
+//			}
+//
+//			batteryField = toStr(batteryField.toNumber());
+//		}
 
 	}
 
@@ -514,11 +454,25 @@ class MyFirstPrjView extends Ui.DataField {
 		if (dist == null) {
 			return "0.00";
 		}
-
 		dist = dist / split;
 		return dist.format("%.2f");
 	}
 
+	function toStr2Digit(val) {
+		if (val == null) {
+			return "0.00";
+		}
+		return val.format("%.2f");
+	}
+
+    function toMeters(value) {
+		if (value == null) {
+			return "0";
+		}
+
+		value = value / 100;
+		return value.format("%.2f");
+	}
 
 	function textL(dc, x, y, font, s) {
 		if (s != null) {
@@ -534,5 +488,145 @@ class MyFirstPrjView extends Ui.DataField {
 	}
 
 
+	/*
+	    0=dist, 1=curPace, 2=lapPace, 3=avePace, 4=HR, 5=aveHR, 6=Cadence, 7=aveCadence
+	    8=grade, 9=totAscent, 10=lap distance, 11=maxHR , 12 = HR zone
+	 */
 
+    function getFieldLabel(field){
+            if (field == 0) {
+    			return "DST";
+    		} else if (field == 1) {
+    			return "Speed";
+    		} else if (field == 2) {
+    			return  "Lap Pace";
+    		} else if (field == 3) {
+    			return "Ave Pace";
+    		} else if (field == 4) {
+    			return  "Heart";
+    		} else if (field == 5) {
+    			return "Ave HR";
+    		} else if (field == 6) {
+    			return "Cadence";
+    		} else if (field == 7) {
+    			return  "Ave Cad";
+    		} else if (field == 8) {
+    			return  "%";
+    		} else if (field == 9) {
+    			return  "TotAsc";
+    		} else if (field == 10) {
+    			return  "LapDst";
+    		} else if (field == 11) {
+    			return  "MaxHR";}
+    		else if (field == 12) {
+    			return  "zHr";
+
+    		}else if (field == 13) {
+    			return  "Altitude";
+
+    		} else {
+    			return "Heart";
+    		}
+    }
+    
+    function getFieldValue(info,field){
+		if (field == 0) {
+			return toDist(info.elapsedDistance);
+		} else if (field == 1) {
+			return toStr2Digit(info.currentSpeed);
+		} else if (field == 2) {
+			return fmtSecs(calculateLapPace(info.elapsedDistance, info.timerTime));
+		} else if (field == 3) {
+			return fmtSecs(toPace(info.averageSpeed));
+		} else if (field == 4) {
+			return toStr(info.currentHeartRate);
+		} else if (field == 5) {
+			return toStr(info.averageHeartRate);
+		} else if (field == 6) {
+			return toStr(info.currentCadence);
+		} else if (field == 7) {
+			return toStr(info.averageCadence);
+		} else if (field == 8) {
+			return toStr2Digit(grade(info));
+		} else if (field == 9) {
+			return toStr(info.averageCadence);
+		} else if (field == 10) {
+			return toStr(info.averageCadence);
+		} else if (field == 11) {
+			return toStr(info.maxHeartRate);
+		} else if (field == 12) {
+			return toStr(info.averageCadence);
+		} else if (field == 13) {
+			return toMeters(info.altitude);
+		} else {
+			return toPace(info.currentCadence);
+		}
+
+
+    }
+
+    function mod(a, b) {
+        return a % b;
+    }
+
+    function grade(info){
+
+    //formula %grade = (H/distanza)*100
+
+    var grade = 0;
+
+    if (info.currentSpeed != null && info.elapsedDistance != null  && info.altitude != null){
+
+//        if (currDistance+5 >= info.elapsedDistance  ){
+//            var calcDistance = (info.altitude-currAltitude);
+//            var calcAltitude = ( info.elapsedDistance-currDistance);
+//
+//            System.println( "ED"+ calcDistance+ "\n" );
+//            System.println( "Alt"+ calcAltitude + "\n" );
+//
+//            grade = (calcAltitude/calcDistance);
+//            System.println( "Grade"+grade+ "\n" );
+//
+//            currAltitude= info.altitude;
+//            currDistance = info.elapsedDistance;
+//        }
+    }
+
+    return grade;
+//    if (info.altitude != null && info.currentSpeed != null) {
+//    	// if we haven't got any data, fill with the current data
+//    	if (arrayDistance[arrayIndex] == null) {
+//    		for (var i = 0; i < arrayDistance.size(); ++i) {
+//    			arrayDistance[i] = info.currentSpeed;
+//    		}
+//
+//    		for (var i = 0; i < arrayAltitude.size(); ++i) {
+//    			arrayAltitude[i] = info.altitude;
+//    		}
+//    	}
+//    	// fill arrays
+//    	arrayAltitude[arrayIndex] = info.altitude;
+//    	arrayDistance[arrayIndex] = info.currentSpeed;
+//
+//    	// calculate altitude change over last 4 seconds
+//    	var altitudeChange = (arrayAltitude[arrayIndex] - arrayAltitude[mod((arrayIndex + 1), arrayAltitude.size())]);
+//
+//    	// calculate horizontal displacement over last 4 seconds
+//    	var distanceChange = 0;
+//
+//    	for (var i = arrayIndex; i > (arrayIndex - (arrayDistance.size() - 1)); --i) {
+//    		var idx = mod(i, arrayDistance.size());
+//    		distanceChange += arrayDistance[idx];
+//    	}
+//    	// calculate percent grade
+//    	valueGrade = (altitudeChange * 100) / distanceChange;
+//
+//    	// advance to next array index
+//    	arrayIndex = mod((arrayIndex + 1), arrayAltitude.size());
+//    }
+//    else {
+//    	valueGrade = 0;
+//    }
+//    return valueGrade;
+    }
 }

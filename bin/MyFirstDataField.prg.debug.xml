@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="9" pc="268435456" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="10" pc="268435460" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="14" pc="268435481" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="17" pc="268435502" symbol="setColor"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="18" pc="268435506" symbol="setColor"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="21" pc="268435517" symbol="draw"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="22" pc="268435521" symbol="draw"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjBackground.mc" lineNum="23" pc="268435553" symbol="draw"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="73" pc="268435567" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="75" pc="268435571" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="77" pc="268435589" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="79" pc="268435596" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="80" pc="268435603" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="81" pc="268435613" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="82" pc="268435626" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="89" pc="268435639" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="90" pc="268435652" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="91" pc="268435665" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="92" pc="268435678" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="93" pc="268435691" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="94" pc="268435704" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="95" pc="268435717" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="96" pc="268435730" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="98" pc="268435740" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="99" pc="268435751" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="100" pc="268435784" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="101" pc="268435823" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="102" pc="268435862" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="103" pc="268435901" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="104" pc="268435940" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="105" pc="268435979" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="106" pc="268436018" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="107" pc="268436057" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="110" pc="268436099" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="111" pc="268436110" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="112" pc="268436130" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="114" pc="268436153" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="115" pc="268436173" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="118" pc="268436193" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="119" pc="268436206" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="121" pc="268436219" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="122" pc="268436233" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="123" pc="268436246" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="124" pc="268436259" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="126" pc="268436275" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="128" pc="268436288" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="129" pc="268436301" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="132" pc="268436314" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="133" pc="268436351" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="135" pc="268436367" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="138" pc="268436380" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="139" pc="268436433" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="141" pc="268436449" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="143" pc="268436474" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="144" pc="268436487" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="145" pc="268436500" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="150" pc="268436514" symbol="onLayout"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="153" pc="268436519" symbol="onShow"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="156" pc="268436524" symbol="onHide"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="160" pc="268436529" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="186" pc="268436533" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="187" pc="268436540" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="188" pc="268436547" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="189" pc="268436554" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="190" pc="268436564" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="192" pc="268436571" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="193" pc="268436578" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="194" pc="268436585" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="197" pc="268436592" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="198" pc="268436620" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="199" pc="268436632" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="203" pc="268436664" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="213" pc="268436714" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="215" pc="268436721" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="216" pc="268436762" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="219" pc="268436809" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="220" pc="268436850" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="222" pc="268436897" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="224" pc="268436911" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="225" pc="268436939" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="226" pc="268436971" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="230" pc="268437006" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="231" pc="268437013" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="232" pc="268437020" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="234" pc="268437061" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="235" pc="268437099" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="236" pc="268437143" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="238" pc="268437181" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="239" pc="268437188" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="240" pc="268437229" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="241" pc="268437270" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="243" pc="268437311" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="244" pc="268437352" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="245" pc="268437396" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="246" pc="268437434" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="251" pc="268437478" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="252" pc="268437485" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="253" pc="268437526" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="256" pc="268437573" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="257" pc="268437614" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="261" pc="268437661" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="266" pc="268437697" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="267" pc="268437723" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="270" pc="268437755" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="271" pc="268437781" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="274" pc="268437813" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="275" pc="268437839" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="278" pc="268437871" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="279" pc="268437897" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="282" pc="268437929" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="283" pc="268437958" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="286" pc="268437993" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="287" pc="268438022" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="295" pc="268438057" symbol="onUpdate"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="299" pc="268438061" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="302" pc="268438065" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="303" pc="268438092" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="304" pc="268438119" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="305" pc="268438146" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="306" pc="268438173" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="307" pc="268438200" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="308" pc="268438227" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="310" pc="268438254" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="311" pc="268438283" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="312" pc="268438312" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="313" pc="268438341" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="314" pc="268438370" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="315" pc="268438399" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="316" pc="268438428" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="318" pc="268438457" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="319" pc="268438457" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="320" pc="268438474" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="322" pc="268438487" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="325" pc="268438497" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="326" pc="268438504" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="328" pc="268438517" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="331" pc="268438524" symbol="compute"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="354" pc="268438546" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="356" pc="268438550" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="357" pc="268438557" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="359" pc="268438570" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="362" pc="268438577" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="364" pc="268438612" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="365" pc="268438655" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="367" pc="268438686" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="368" pc="268438703" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="372" pc="268438722" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="375" pc="268438738" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="376" pc="268438761" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="377" pc="268438771" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="378" pc="268438781" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="382" pc="268438806" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="387" pc="268438815" symbol="calculateLapPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="392" pc="268438836" symbol="toStr"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="393" pc="268438840" symbol="toStr"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="394" pc="268438861" symbol="toStr"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="396" pc="268438873" symbol="toStr"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="401" pc="268438880" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="403" pc="268438884" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="404" pc="268438894" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="406" pc="268438907" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="407" pc="268438932" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="408" pc="268438943" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="409" pc="268438956" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="410" pc="268438967" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="414" pc="268438983" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="415" pc="268438994" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="418" pc="268439010" symbol="fmtTime"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="421" pc="268439049" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="423" pc="268439053" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="424" pc="268439060" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="427" pc="268439069" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="428" pc="268439082" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="429" pc="268439092" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="430" pc="268439105" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="431" pc="268439115" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="433" pc="268439128" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="434" pc="268439128" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="435" pc="268439139" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="437" pc="268439198" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="440" pc="268439231" symbol="fmtSecs"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="444" pc="268439235" symbol="toPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="445" pc="268439239" symbol="toPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="446" pc="268439260" symbol="toPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="449" pc="268439265" symbol="toPace"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="453" pc="268439278" symbol="toDist"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="454" pc="268439282" symbol="toDist"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="455" pc="268439289" symbol="toDist"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="457" pc="268439298" symbol="toDist"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="458" pc="268439311" symbol="toDist"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="461" pc="268439329" symbol="toStr2Digit"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="462" pc="268439333" symbol="toStr2Digit"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="463" pc="268439340" symbol="toStr2Digit"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="465" pc="268439349" symbol="toStr2Digit"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="468" pc="268439367" symbol="toMeters"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="469" pc="268439371" symbol="toMeters"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="470" pc="268439378" symbol="toMeters"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="473" pc="268439387" symbol="toMeters"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="474" pc="268439397" symbol="toMeters"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="477" pc="268439415" symbol="textL"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="478" pc="268439419" symbol="textL"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="479" pc="268439426" symbol="textL"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="484" pc="268439479" symbol="textC"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="485" pc="268439483" symbol="textC"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="486" pc="268439490" symbol="textC"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="496" pc="268439543" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="497" pc="268439547" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="498" pc="268439558" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="499" pc="268439567" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="500" pc="268439578" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="501" pc="268439587" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="502" pc="268439598" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="503" pc="268439607" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="504" pc="268439618" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="505" pc="268439627" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="506" pc="268439638" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="507" pc="268439647" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="508" pc="268439658" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="509" pc="268439667" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="510" pc="268439678" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="511" pc="268439687" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="512" pc="268439698" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="513" pc="268439707" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="514" pc="268439718" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="515" pc="268439727" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="516" pc="268439738" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="517" pc="268439747" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="518" pc="268439758" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="519" pc="268439767" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="520" pc="268439778" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="521" pc="268439787" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="522" pc="268439798" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="524" pc="268439807" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="525" pc="268439818" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="528" pc="268439827" symbol="getFieldLabel"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="532" pc="268439834" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="533" pc="268439838" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="534" pc="268439849" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="535" pc="268439872" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="536" pc="268439883" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="537" pc="268439906" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="538" pc="268439917" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="539" pc="268439959" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="540" pc="268439970" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="541" pc="268440004" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="542" pc="268440015" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="543" pc="268440038" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="544" pc="268440049" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="545" pc="268440072" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="546" pc="268440083" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="547" pc="268440106" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="548" pc="268440117" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="549" pc="268440140" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="550" pc="268440151" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="551" pc="268440179" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="552" pc="268440190" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="553" pc="268440213" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="554" pc="268440224" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="555" pc="268440247" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="556" pc="268440258" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="557" pc="268440281" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="558" pc="268440292" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="559" pc="268440315" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="560" pc="268440326" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="562" pc="268440349" symbol="getFieldValue"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="568" pc="268440370" symbol="mod"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="569" pc="268440374" symbol="mod"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="572" pc="268440381" symbol="grade"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="576" pc="268440385" symbol="grade"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="578" pc="268440392" symbol="grade"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjView.mc" lineNum="595" pc="268440440" symbol="grade"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjApp.mc" lineNum="5" pc="268440444" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjApp.mc" lineNum="6" pc="268440448" symbol="initialize"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjApp.mc" lineNum="10" pc="268440467" symbol="onStart"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjApp.mc" lineNum="14" pc="268440472" symbol="onStop"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjApp.mc" lineNum="18" pc="268440477" symbol="getInitialView"/>
+<entry filename="/Users/francesco/git/MyFirstDataField/./source/MyFirstPrjApp.mc" lineNum="19" pc="268440481" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="19" pc="268440519" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="23" pc="268440531" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="24" pc="268440555" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="25" pc="268440718" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="26" pc="268440743" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="27" pc="268440795" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="28" pc="268440841" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="29" pc="268441004" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="30" pc="268441029" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="31" pc="268441081" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="34" pc="268441127" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="43" pc="268441165" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="47" pc="268441177" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="48" pc="268441201" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="49" pc="268441334" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="52" pc="268441467" symbol="TopLeftLayout"/>
+<entry filename="Rez" lineNum="61" pc="268441505" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="65" pc="268441517" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="66" pc="268441541" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="67" pc="268441674" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="70" pc="268441807" symbol="TopRightLayout"/>
+<entry filename="Rez" lineNum="79" pc="268441845" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="83" pc="268441857" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="84" pc="268441881" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="85" pc="268442014" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="88" pc="268442147" symbol="BottomLeftLayout"/>
+<entry filename="Rez" lineNum="97" pc="268442185" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="101" pc="268442197" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="102" pc="268442221" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="103" pc="268442354" symbol="BottomRightLayout"/>
+<entry filename="Rez" lineNum="106" pc="268442487" symbol="BottomRightLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry field="true" id="50" symbol="timerType"/>
+<entry field="true" id="15" symbol="currDistance"/>
+<entry field="true" id="55" symbol="timeFieldOffset"/>
+<entry field="true" id="37" symbol="boxEmiddleFieldLabel"/>
+<entry id="61" method="true" symbol="fmtTime"/>
+<entry field="true" id="17" symbol="boxBmiddleFieldMode"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389349" symbol="justification"/>
+<entry field="true" id="40" symbol="boxFmiddleFieldLabel"/>
+<entry id="62" method="true" symbol="fmtSecs"/>
+<entry field="true" id="16" symbol="currAltitude"/>
+<entry field="true" id="57" symbol="foregroundColour"/>
+<entry field="true" id="18" symbol="boxBmiddleField"/>
+<entry field="true" id="41" symbol="timerFieldMode"/>
+<entry id="77" method="true" symbol="TopLeftLayout"/>
+<entry id="60" method="true" symbol="toStr"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="26" symbol="boxDtopRightFieldMode"/>
+<entry field="true" id="12" symbol="arrayDistance"/>
+<entry field="true" id="23" symbol="boxCtopLeftFieldMode"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry field="true" id="8389138" symbol="label"/>
+<entry id="79" method="true" symbol="BottomLeftLayout"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="72" method="true" symbol="grade"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry id="76" method="true" symbol="MainLayout"/>
+<entry field="true" id="38" symbol="boxFmiddleFieldMode"/>
+<entry field="true" id="13" symbol="arrayAltitude"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="19" symbol="boxBmiddleFieldLabel"/>
+<entry id="70" method="true" symbol="getFieldValue"/>
+<entry field="true" id="29" symbol="boxDmiddleFieldMode"/>
+<entry field="true" id="53" symbol="timerLabel_y"/>
+<entry field="true" id="27" symbol="boxDtopRightField"/>
+<entry field="true" id="21" symbol="boxCmiddleField"/>
+<entry field="true" id="22" symbol="boxCmiddleFieldLabel"/>
+<entry field="true" id="8389130" symbol="mColor"/>
+<entry id="66" method="true" symbol="toMeters"/>
+<entry field="true" id="49" symbol="timer"/>
+<entry id="8389131" method="true" symbol="setColor"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="81" symbol="AppName"/>
+<entry field="true" id="28" symbol="boxDtopRightFieldLabel"/>
+<entry field="true" id="54" symbol="timeField"/>
+<entry field="true" id="25" symbol="boxCtopLeftFieldLabel"/>
+<entry field="true" id="48" symbol="split"/>
+<entry field="true" id="47" symbol="lapSplit"/>
+<entry id="8390146" module="true" object="true" symbol="Background"/>
+<entry field="true" id="42" symbol="batteryField"/>
+<entry field="true" id="75" symbol="LauncherIcon"/>
+<entry field="true" id="43" symbol="batteryFieldOffset"/>
+<entry field="true" id="32" symbol="boxDtopLeftFieldMode"/>
+<entry field="true" id="30" symbol="boxDmiddleField"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389137" method="true" symbol="compute"/>
+<entry field="true" id="14" symbol="arrayIndex"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="67" method="true" symbol="textL"/>
+<entry id="68" method="true" symbol="textC"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="56" symbol="invertMiddleBackground"/>
+<entry id="78" method="true" symbol="TopRightLayout"/>
+<entry id="59" method="true" symbol="calculateLapPace"/>
+<entry id="64" method="true" symbol="toDist"/>
+<entry id="8389348" symbol="font"/>
+<entry id="65" method="true" symbol="toStr2Digit"/>
+<entry id="10" object="true" symbol="MyFirstPrjView"/>
+<entry field="true" id="34" symbol="boxDtopLeftFieldLabel"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="44" symbol="currentLap"/>
+<entry field="true" id="20" symbol="boxCmiddleFieldMode"/>
+<entry field="true" id="8388958" symbol="speed"/>
+<entry field="true" id="31" symbol="boxDmiddleFieldLabel"/>
+<entry field="true" id="36" symbol="boxEmiddleField"/>
+<entry id="71" method="true" symbol="mod"/>
+<entry field="true" id="33" symbol="boxDtopLeftField"/>
+<entry field="true" id="46" symbol="previousLapTime"/>
+<entry id="74" module="true" symbol="Layouts"/>
+<entry id="80" method="true" symbol="BottomRightLayout"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry field="true" id="52" symbol="timer_y"/>
+<entry field="true" id="51" symbol="timer_x"/>
+<entry id="69" method="true" symbol="getFieldLabel"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="24" symbol="boxCtopLeftField"/>
+<entry field="true" id="58" symbol="backgroundColour"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="63" method="true" symbol="toPace"/>
+<entry id="73" module="true" symbol="Menus"/>
+<entry field="true" id="45" symbol="previousLapDist"/>
+<entry field="true" id="39" symbol="boxFmiddleField"/>
+<entry field="true" id="35" symbol="boxEmiddleFieldMode"/>
+<entry id="9" object="true" symbol="MyFields"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="11" object="true" symbol="MyFirstPrjApp"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435501" name="dictionary" stackId="1" startPc="268435460"/>
+<entry endPc="268435517" name="color" stackId="1" startPc="268435502"/>
+<entry endPc="268435566" name="dc" stackId="1" startPc="268435517"/>
+<entry endPc="268436513" name="background" stackId="2" startPc="268435571"/>
+<entry endPc="268436513" name="usePreferences" stackId="1" startPc="268435571"/>
+<entry endPc="268436519" name="dc" stackId="1" startPc="268436514"/>
+<entry endPc="268438060" name="Tkn" stackId="8" startPc="268436533"/>
+<entry endPc="268438060" name="SPC" stackId="9" startPc="268436533"/>
+<entry endPc="268438060" name="hTopLineEF" stackId="13" startPc="268436533"/>
+<entry endPc="268438060" name="pHD" stackId="6" startPc="268436533"/>
+<entry endPc="268438060" name="pHC" stackId="5" startPc="268436533"/>
+<entry endPc="268438060" name="pHB" stackId="4" startPc="268436533"/>
+<entry endPc="268438060" name="pHA" stackId="3" startPc="268436533"/>
+<entry endPc="268438060" name="HEIGHT" stackId="2" startPc="268436533"/>
+<entry endPc="268438060" name="endField" stackId="12" startPc="268436533"/>
+<entry endPc="268438060" name="hLineD" stackId="11" startPc="268436533"/>
+<entry endPc="268438060" name="hLineCB" stackId="10" startPc="268436533"/>
+<entry endPc="268438060" name="CNT" stackId="7" startPc="268436533"/>
+<entry endPc="268438060" name="hLineEF" stackId="14" startPc="268436533"/>
+<entry endPc="268438061" name="dc" stackId="1" startPc="268436529"/>
+<entry endPc="268438545" name="time" stackId="2" startPc="268438065"/>
+<entry endPc="268438546" name="info" stackId="1" startPc="268438061"/>
+<entry endPc="268438836" name="time" stackId="2" startPc="268438546"/>
+<entry endPc="268438836" name="distance" stackId="1" startPc="268438546"/>
+<entry endPc="268438880" name="o" stackId="1" startPc="268438836"/>
+<entry endPc="268439048" name="h" stackId="2" startPc="268438884"/>
+<entry endPc="268439049" name="clock" stackId="1" startPc="268438880"/>
+<entry endPc="268439234" name="fmt" stackId="5" startPc="268439053"/>
+<entry endPc="268439234" name="hours" stackId="3" startPc="268439053"/>
+<entry endPc="268439234" name="minutes" stackId="4" startPc="268439053"/>
+<entry endPc="268439234" name="s" stackId="2" startPc="268439053"/>
+<entry endPc="268439235" name="secs" stackId="1" startPc="268439049"/>
+<entry endPc="268439278" name="speed" stackId="1" startPc="268439235"/>
+<entry endPc="268439329" name="dist" stackId="1" startPc="268439278"/>
+<entry endPc="268439367" name="val" stackId="1" startPc="268439329"/>
+<entry endPc="268439415" name="value" stackId="1" startPc="268439367"/>
+<entry endPc="268439479" name="x" stackId="2" startPc="268439415"/>
+<entry endPc="268439479" name="dc" stackId="1" startPc="268439415"/>
+<entry endPc="268439479" name="font" stackId="4" startPc="268439415"/>
+<entry endPc="268439479" name="s" stackId="5" startPc="268439415"/>
+<entry endPc="268439479" name="y" stackId="3" startPc="268439415"/>
+<entry endPc="268439543" name="x" stackId="2" startPc="268439479"/>
+<entry endPc="268439543" name="dc" stackId="1" startPc="268439479"/>
+<entry endPc="268439543" name="font" stackId="4" startPc="268439479"/>
+<entry endPc="268439543" name="s" stackId="5" startPc="268439479"/>
+<entry endPc="268439543" name="y" stackId="3" startPc="268439479"/>
+<entry endPc="268439834" name="field" stackId="1" startPc="268439543"/>
+<entry endPc="268440370" name="field" stackId="2" startPc="268439834"/>
+<entry endPc="268440370" name="info" stackId="1" startPc="268439834"/>
+<entry endPc="268440381" name="b" stackId="2" startPc="268440370"/>
+<entry endPc="268440381" name="a" stackId="1" startPc="268440370"/>
+<entry endPc="268440443" name="grade" stackId="2" startPc="268440385"/>
+<entry endPc="268440444" name="info" stackId="1" startPc="268440381"/>
+<entry endPc="268440472" name="state" stackId="1" startPc="268440467"/>
+<entry endPc="268440477" name="state" stackId="1" startPc="268440472"/>
+<entry endPc="268441164" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268440531"/>
+<entry endPc="268441164" name="rez_cmp_local_bitmap_value_fontHeight" stackId="6" startPc="268440531"/>
+<entry endPc="268441164" name="rez_cmp_local_bitmap_value" stackId="5" startPc="268440531"/>
+<entry endPc="268441164" name="rez_cmp_local_custom_drawable_2VQWRC66AYJLSBQJNGD1" stackId="2" startPc="268440531"/>
+<entry endPc="268441164" name="rez_cmp_local_bitmap_label_fontHeight" stackId="4" startPc="268440531"/>
+<entry endPc="268441165" name="dc" stackId="1" startPc="268440519"/>
+<entry endPc="268441504" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441177"/>
+<entry endPc="268441504" name="rez_cmp_local_custom_drawable_1G9GJE9G6323AD6I3VUA" stackId="2" startPc="268441177"/>
+<entry endPc="268441504" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441177"/>
+<entry endPc="268441505" name="dc" stackId="1" startPc="268441165"/>
+<entry endPc="268441844" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441517"/>
+<entry endPc="268441844" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441517"/>
+<entry endPc="268441844" name="rez_cmp_local_custom_drawable_EMZ5GYD407FHI9F0IS9E" stackId="2" startPc="268441517"/>
+<entry endPc="268441845" name="dc" stackId="1" startPc="268441505"/>
+<entry endPc="268442184" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268441857"/>
+<entry endPc="268442184" name="rez_cmp_local_custom_drawable_KXX3SF3Y6IIJLOB0Z3IS" stackId="2" startPc="268441857"/>
+<entry endPc="268442184" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268441857"/>
+<entry endPc="268442185" name="dc" stackId="1" startPc="268441845"/>
+<entry endPc="268442524" name="rez_cmp_local_bitmap_label" stackId="3" startPc="268442197"/>
+<entry endPc="268442524" name="rez_cmp_local_bitmap_value" stackId="4" startPc="268442197"/>
+<entry endPc="268442524" name="rez_cmp_local_custom_drawable_O5X9X57XHGF03VBQLCPF" stackId="2" startPc="268442197"/>
+<entry endPc="268442525" name="dc" stackId="1" startPc="268442185"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="initialize" parent="Background">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="setColor" parent="Background">
+<param id="color"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="draw" parent="Background">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MyFirstPrjView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="MyFirstPrjView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="MyFirstPrjView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="MyFirstPrjView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="MyFirstPrjView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="compute" parent="MyFirstPrjView">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="calculateLapPace" parent="MyFirstPrjView">
+<param id="distance"/>
+<param id="time"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toStr" parent="MyFirstPrjView">
+<param id="o"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="fmtTime" parent="MyFirstPrjView">
+<param id="clock"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="fmtSecs" parent="MyFirstPrjView">
+<param id="secs"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toPace" parent="MyFirstPrjView">
+<param id="speed"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toDist" parent="MyFirstPrjView">
+<param id="dist"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toStr2Digit" parent="MyFirstPrjView">
+<param id="val"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="toMeters" parent="MyFirstPrjView">
+<param id="value"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="textL" parent="MyFirstPrjView">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="font"/>
+<param id="s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="textC" parent="MyFirstPrjView">
+<param id="dc"/>
+<param id="x"/>
+<param id="y"/>
+<param id="font"/>
+<param id="s"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getFieldLabel" parent="MyFirstPrjView">
+<param id="field"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getFieldValue" parent="MyFirstPrjView">
+<param id="info"/>
+<param id="field"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="mod" parent="MyFirstPrjView">
+<param id="a"/>
+<param id="b"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="grade" parent="MyFirstPrjView">
+<param id="info"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="MyFirstPrjApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="MyFirstPrjApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="MyFirstPrjApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="MyFirstPrjApp">
+<documentation><![CDATA[<div class="description"> Return the initial view of your application here<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="MainLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="TopLeftLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="TopRightLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="BottomLeftLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="public" name="BottomRightLayout" parent="Layouts">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Draw the layout<br/> param The context<br/></div>]]></documentation>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="198" parentId="globals" symbolId="Background" type="class"/>
+<dataEntry offset="269" parentId="globals" symbolId="MyFirstPrjView" type="class"/>
+<dataEntry offset="852" parentId="globals" symbolId="MyFields" type="class"/>
+<dataEntry offset="899" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="978" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="1017" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="1048" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="1079" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="1110" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="1181" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="1228" parentId="globals" symbolId="MyFirstPrjApp" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
